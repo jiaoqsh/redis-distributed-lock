@@ -9,7 +9,7 @@ import org.junit.Test;
 
 
 public class LockTest {
-	static final String NODES = "10.127.129.125:6379,10.127.129.126:6379,10.127.129.126:6389";
+	static final String NODES = "127.0.0.1:6379, 127.0.0.1:6389, 127.0.0.1:6399";
 	
 	@Test
 	public void test1(){
